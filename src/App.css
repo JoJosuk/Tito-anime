@@ -25,7 +25,10 @@ body {
   align-items: center;
   flex-direction: column;
 }
-
+.app img{
+  height: 200px;
+  width: 200px;
+}
 h1 { 
      color: #c9d0d4; 
      font-family: 'Helvetica Neue', sans-serif;

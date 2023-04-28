@@ -1,4 +1,5 @@
 import React from "react";
+import logow from './logo-white.png';
 
 const mcard=({movie})=>{
     const handleClick=()=>{
@@ -7,6 +8,7 @@ const mcard=({movie})=>{
     return(
         <div className="movie"  onClick={handleClick}>
             <div>
+                
                 {/* <p>{movie.id}</p> */}
                 <p>{movie.releaseDate}</p>
             </div>

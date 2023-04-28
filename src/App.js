@@ -5,6 +5,8 @@ import { useState } from "react";
 import Mcard from "./Mcard";
 import './App.css'
 import Sicon from'./search.svg'
+import logow from './logo-white.png';
+
 
 const API_URL = 'https://api.consumet.org/anime/gogoanime/top-airing'
 const API_SEARCH_URL = 'https://api.consumet.org/anime/gogoanime'
@@ -32,7 +34,8 @@ const App = () => {
     return (
         
         <div className="app">
-            <h1>TITO ANIME</h1>
+            <img src={logow} alt="tito"  />
+            {/* <h1>TITO ANIME</h1> */}
             <div className="search">
                 <input type="text" 
                 placeholder="Search for anime"
