@@ -28,7 +28,7 @@ const App = () => {
     }
     useEffect(() => {
        searchAni(''); 
-    }, [searchAni]);
+    }, []);
     return (
         
         <div className="app">
