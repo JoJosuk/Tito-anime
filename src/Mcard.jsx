@@ -1,5 +1,4 @@
 import React from "react";
-import logow from './logo-white.png';
 
 const mcard=({movie})=>{
     const handleClick=()=>{
